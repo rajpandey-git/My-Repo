@@ -3,6 +3,6 @@ resource "aws_vpc" "Javahome_vpc" {
   instance_tenancy = "${var.tenancy}"
 
   tags = {
-    Name        = "${terraform.workspace}-Javahome-Vpc"
+    Name        = "${terraform.workspace}-Vpc"
       }
 }
