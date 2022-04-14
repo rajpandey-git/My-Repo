@@ -9,7 +9,7 @@ pipeline {
         stage('s3- bucket creation'){
             steps{
                 script{
-                    getTerraformPath('rajpandey2212')
+                    createS3Bucket('rajpandey2212')
                 }
             }
         }
